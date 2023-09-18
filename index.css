@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.box {
+    background-color: whitesmoke;
+    /* when cursor move over on text */
+    mix-blend-mode: difference;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.container {
+    font-size: 100px;
+    font-weight: 100px;
+    color: aqua;
+}
